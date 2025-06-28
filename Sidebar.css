@@ -1,0 +1,140 @@
+
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    
+   
+    }
+   
+
+
+.sidebar img{
+    width: 20px;
+    
+}
+
+.sidebar .menu{
+    display:table;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    gap:10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color:#282828;
+    padding:10px 15px;
+    font-size: 14px;
+    align-items: center;
+    
+  
+   
+  
+    
+}
+
+
+
+.sidebar .menu:hover{
+    background-color: #e2e6eb;
+    
+}
+
+.sidebar .newchat{
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color:grey;
+    cursor:pointer;
+    margin-left: 10px;
+    
+}
+
+.sidebar .newchat:hover{
+    background-color: #e2e6eb;
+    
+}
+
+.sidebar.recent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    animation: fadeIn 1s;
+}
+
+
+
+.sidebar .recenttitle{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding:10px;
+    
+    border-radius: 50px;
+   
+    color:#282828;
+}
+
+.sidebar .recententry{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding:10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    color:#282828;
+    margin-left: 7px;
+    margin-top: 5px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color:grey;
+}
+
+.sidebar .recententry:hover{
+    background-color: #e2e6eb;
+    width: auto;
+}
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+    
+    }
+
+.sidebar .bottomitem{
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    margin-left: 20px;
+    align-items: flex-start;
+    gap: 10px;
+    padding:10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    color:#282828;
+    
+    }
+
+    .sidebar .bottomitem:hover{
+        background-color: #e2e6eb;
+        
+    }
+
+    @media (max-width:600px){
+        .sidebar {
+            display: none;
+        }
+    }
